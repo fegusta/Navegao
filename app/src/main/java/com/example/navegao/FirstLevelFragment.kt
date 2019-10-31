@@ -12,7 +12,6 @@ class FirstLevelFragment : Fragment() {
     private var navigationType: String? = null
     private var actions = mutableMapOf<String, Class<*>>()
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         actions.put(getString(R.string.option_tab), TabsActivity::class.java)
